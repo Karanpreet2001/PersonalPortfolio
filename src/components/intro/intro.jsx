@@ -2,8 +2,8 @@ import React from 'react';
 import "./into.scss";
 
 const Intro = () => {
-    return ( <div className="intro">
-        Ssss
+    return ( <div className="intro" id='intro'>
+       
     </div> );
 }
  
