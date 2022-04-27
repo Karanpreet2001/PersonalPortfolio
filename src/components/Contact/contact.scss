@@ -1,3 +1,78 @@
+@import "../../global.scss";
 .contact{
-    background-color: lightblue;
+    background-color: white;
+
+    display: flex;
+
+    .left{
+        flex: 1;
+        overflow: hidden;
+
+        iframe{
+            width: 98%;
+            height: 95%;
+            margin: 10px;
+           
+            border: 2px solid rgb(68, 103, 182);
+            
+            
+        }
+    }
+    .right{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h2{
+            font-size: 37px;
+        }
+        form{
+            width: 70%;
+            height: 70%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+
+            input{
+                width: 400px;
+                height: 45px;
+                font-size: 14px;
+                border: none;
+                border-bottom: 1px solid black;
+                padding-left: 10px;
+
+         
+            }
+            textarea{
+                width: 400px;
+                height: 200px;
+                font-size: 14px;
+                margin-top: 10px;
+                padding-left: 10px;
+                padding-top: 10px;
+
+            }
+            button{
+                width: 150px;
+                height: 32px;
+                border-radius: 8px;
+                font-size: 16px;
+                color: white;
+                background-color: rgb(234, 26, 29);
+                cursor: pointer;
+                border: none;
+
+                &:hover{
+                    background-color: rgb(182, 6, 12);
+                }
+                
+            }
+            h3{
+                color:rgb(71, 113, 7)
+            }
+        }
+    }
 }
