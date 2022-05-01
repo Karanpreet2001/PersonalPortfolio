@@ -10,6 +10,8 @@ const Contact = () => {
     const [message, setMessage]= useState('');
     const handleSubmit=(e)=>{
         e.preventDefault();
+
+        
         emailjs.sendForm('service_jha010k', 'template_jz0hq1g', formRef.current, '9lPWEp9oVSVr_5gp5')
         .then((result) => {
             console.log(result.text);
