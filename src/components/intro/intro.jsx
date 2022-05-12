@@ -4,18 +4,18 @@ import  Typewriter  from 'typewriter-effect';
 
 
 
+import Particles from "react-tsparticles";
+// import { loadFull } from "tsparticles";
 const Intro = () => {
 
-    const txtRef= useRef();
+    
 
-    // useEffect(()=>{
-    //     init(txtRef.current, { 
-    //         showCursor: false, 
-    //         strings: ['Use with React.js!', 'Yeah!' ] 
-    //     });
-    // },[]);
+   
+  
 
-    return ( <div className="intro" id='intro'>
+    return (
+     
+       <div className="intro" id='intro'>
        
        <div className="left"><div className='imgContainer'><img src="https://www.seekpng.com/png/full/76-760594_man-transparent-resolution-smile-man-png.png" alt="" /></div></div>
        <div className="right">
@@ -35,7 +35,8 @@ const Intro = () => {
            </div>
            <a href='#portfolio'></a>
        </div>
-    </div> );
+    </div> 
+    );
 }
  
 export default Intro;
