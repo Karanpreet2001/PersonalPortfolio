@@ -23,17 +23,20 @@
         margin: 0%;
         padding: 0;
         list-style: none;
-        font-size: 30px;
+        font-size: 70px;
         // font-weight: 200;
-        width: 60%;
+        width: 70%;
         // color: white;
 
         li{
             margin-bottom: 12px;
+        font-size: 25px;
+          
             a{
                 font-size: inherit;
                 color: white;
                 text-decoration: none;
+                
             }
 
             &:hover{
