@@ -1,3 +1,5 @@
+@import '../../global.scss';
+
 .intro{
     background-color: white;
 
@@ -41,7 +43,10 @@
             justify-content: center;
 
             h1{ font-size: 65px;
-            margin: 10px 0;}
+            margin: 10px 0;
+            
+              }
+        }
             h2{font-size: 30px;}
             h3{font-size: 30px;
                 span{
@@ -49,6 +54,25 @@
                     color: rgb(108, 108, 247);
                 }
             }
+            button{
+                width: 40%;
+                height: 8%;
+                margin-top: 10%;
+                background-color:white;
+                color: $mainColor;
+                font-size: 18px;
+                font-weight: 600;
+                border: 0;
+                border-radius: 10px;
+                border: 2px solid $mainColor;
+                transition: all 0.5s ease;
+
+                &:hover{
+                    color: white;
+                border: 2px solid white;
+
+                    background-color: rgb(108, 108, 247);
+                }
+            }
         }
     }
-}
