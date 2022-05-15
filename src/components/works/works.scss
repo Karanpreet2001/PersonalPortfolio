@@ -3,9 +3,9 @@
 
 .works{
     background-color: white;
-  //   display: flex;
-  //   flex-direction: column;
-  // justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+  justify-content: space-around;
 
   
 
@@ -23,6 +23,140 @@
        
 
         
+    }
+    .wrapper{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+
+      .container_frontend{
+
+        width: 400px;
+        background-color: $mainColor;
+        padding: 1.4em 5em;
+        border-radius: 2rem;
+        border: 1px solid transparent;
+        color: white;
+        transition: all 1s ease;
+        box-shadow: 0px 0px 30px -8px $mainColor;
+        margin-top: 25px;
+        margin-bottom: 20px;
+
+        h3{
+          text-align: center;
+          color: whitesmoke;
+          font-size: 1.3em;
+          transition: all 1s ease;
+        }
+
+        .experience_content{
+          padding-top: 30px;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          row-gap: 2rem;
+          column-gap: 4rem;
+
+          .exp_details{
+            display: flex;
+            gap: 8px;
+
+            .txt-light{
+              color: rgb(187, 186, 186);
+          transition: all 1s ease;
+
+            }
+          }
+        }
+
+        &:hover{
+         
+      // border: 2px solid $mainColor ;
+
+          color: #2f0681;
+          background-color: white;
+          transition: all 1s ease;
+
+          h3{
+            color : #250468;
+          }
+          .experience_content{
+              .exp_details{
+
+                .txt-light{
+                  color: #543f7e;
+                }
+              }
+          }
+          
+      }
+      }
+
+       .container_backend{
+
+        width: 400px;
+
+        background-color: $mainColor;
+        padding: 1.4em 5em;
+        border-radius: 2rem;
+        border: 1px solid transparent;
+        color: white;
+        transition: all 1s ease;
+        box-shadow: 0px 0px 30px -8px $mainColor;
+        margin-top: 25px;
+        margin-bottom: 20px;
+
+        h3{
+          text-align: center;
+          color: whitesmoke;
+          font-size: 1.3em;
+          transition: all 1s ease;
+        }
+
+        .experience_content{
+          padding-top: 30px;
+
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          row-gap: 2rem;
+          column-gap: 2rem;
+          padding-bottom: 10px;
+
+          .exp_details{
+            display: flex;
+            gap: 8px;
+
+            .txt-light{
+              color: rgb(187, 186, 186);
+          transition: all 1s ease;
+
+            }
+          }
+
+        }
+
+        &:hover{
+         
+      // border: 2px solid $mainColor ;
+
+          color: #2f0681;
+          background-color: white;
+          transition: all 1s ease;
+
+          h3{
+            color : #250468;
+          }
+
+          .experience_content{
+            .exp_details{
+
+              .txt-light{
+                color: #543f7e;
+              }
+            }
+        }
+      }
+      }
+
     }
 
     

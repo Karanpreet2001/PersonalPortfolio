@@ -53,45 +53,116 @@ const Works = () => {
          <div className="experience_content">
            <div className="exp_details">
               <BsPatchCheckFill/>
+              <div>
               <h4>HTML</h4>
               <small className="txt-light">Experienced</small>
+              </div>
+              
            </div>
            <div className="exp_details">
               <BsPatchCheckFill/>
+              <div>
               <h4>CSS</h4>
               <small className="txt-light">Intermediate</small>
+              </div>
+              
            </div>
            <div className="exp_details">
               <BsPatchCheckFill/>
+              <div>
               <h4>JavaScript</h4>
               <small className="txt-light">Intermediate</small>
+              </div>
+              
            </div>
            <div className="exp_details">
               <BsPatchCheckFill/>
+              <div>
+              <h4>Bootstrap</h4>
+              <small className="txt-light">Experienced</small>
+              </div>
+              
+           </div>
+           <div className="exp_details">
+              <BsPatchCheckFill/>
+              <div>
               <h4>React</h4>
               <small className="txt-light">Intermediate</small>
-           </div>
-           <div className="exp_details">
-              <BsPatchCheckFill/>
-              <h4>Bootstrap</h4>
-              <small className="txt-light">Intermediate</small>
-           </div>
-           <div className="exp_details">
-              <BsPatchCheckFill/>
-              <h4>HTML</h4>
-              <small className="txt-light">Experienced</small>
+              </div>
+              
            </div>
          </div>
 
         </div>
 
-        <div className="container2">
+        <div className="container_backend">
+         <h3>Backend Developer</h3>
+         <div className="experience_content">
+           <div className="exp_details">
+              <BsPatchCheckFill/>
+              <div>
+              <h4>Node JS</h4>
+              <small className="txt-light">Intermediate</small>
+              </div>
+              
+           </div>
+           <div className="exp_details">
+              <BsPatchCheckFill/>
+              <div>
+              <h4>Express JS</h4>
+              <small className="txt-light">Intermediate</small>
+              </div>
+              
+           </div>
+           <div className="exp_details">
+              <BsPatchCheckFill/>
+              <div>
+              <h4>Java</h4>
+              <small className="txt-light">Experienced</small>
+              </div>
+              
+           </div>
+           <div className="exp_details">
+              <BsPatchCheckFill/>
+              <div>
+              <h4>MongoDB</h4>
+
+              <small className="txt-light">Experienced</small>
+              </div>
+           </div>
+           <div className="exp_details">
+              <BsPatchCheckFill/>
+              <div>
+              <h4>MySQL</h4>
+              <small className="txt-light">Experienced</small>
+              </div>
+             
+           </div>
+           <div className="exp_details">
+              <BsPatchCheckFill/>
+              <div>
+              <h4>PHP</h4>
+              <small className="txt-light">Intermediate</small>
+              </div>
+             
+           </div>
+           <div className="exp_details">
+              <BsPatchCheckFill/>
+              <div>
+              <h4>Java for Android</h4>
+              <small className="txt-light">Experienced</small>
+              </div>
+              
+           </div>
+         </div>
+
+        </div>
           
         </div>
 
         </div>
 
-    </div> );
+     );
 }
  
 export default Works;
