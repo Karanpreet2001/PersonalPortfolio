@@ -2,6 +2,8 @@ import "./works.scss";
 import { TagCloud } from 'react-tagcloud';
 import randomColor from 'randomcolor';
 
+import {BsPatchCheckFill} from 'react-icons/bs';
+
 const Works = () => {
     
     const skills = [
@@ -46,34 +48,45 @@ const Works = () => {
 
         <div className="wrapper">
       
-      <div className="container1">
-          <h3>Frond-End</h3>
-      <ul className="skills">
-          {skills.map((skill, index) => 
-            <li
-              key={skill.type}
-              style={{ width: `${skill.level}%`, backgroundColor: `hsl(290, 50%, ${100 / (index + 3.5) }%)` }}
-            >
-              <p>{skill.type}<span>{skill.level}</span></p>
-            </li>
-          )}
-        </ul>
+      <div className="container_frontend">
+         <h3>Frontend Developer</h3>
+         <div className="experience_content">
+           <div className="exp_details">
+              <BsPatchCheckFill/>
+              <h4>HTML</h4>
+              <small className="txt-light">Experienced</small>
+           </div>
+           <div className="exp_details">
+              <BsPatchCheckFill/>
+              <h4>CSS</h4>
+              <small className="txt-light">Intermediate</small>
+           </div>
+           <div className="exp_details">
+              <BsPatchCheckFill/>
+              <h4>JavaScript</h4>
+              <small className="txt-light">Intermediate</small>
+           </div>
+           <div className="exp_details">
+              <BsPatchCheckFill/>
+              <h4>React</h4>
+              <small className="txt-light">Intermediate</small>
+           </div>
+           <div className="exp_details">
+              <BsPatchCheckFill/>
+              <h4>Bootstrap</h4>
+              <small className="txt-light">Intermediate</small>
+           </div>
+           <div className="exp_details">
+              <BsPatchCheckFill/>
+              <h4>HTML</h4>
+              <small className="txt-light">Experienced</small>
+           </div>
+         </div>
 
         </div>
 
         <div className="container2">
-          <h3>Back-End</h3>
-      <ul className="skills">
-          {skills2.map((skill, index) => 
-            <li
-              key={skill.type}
-              style={{ width: `${skill.level}%`, backgroundColor: `hsl(50, 50%, ${100 / (index + 3.5) }%)` }}
-            >
-              <p>{skill.type}<span>{skill.level}</span></p>
-            </li>
-          )}
-        </ul>
-
+          
         </div>
 
         </div>
