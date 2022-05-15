@@ -5,34 +5,35 @@
 
     display: flex;
 
-    .left{
-        flex: 0.5;
-        overflow: hidden;
+    // .left{
+    //     flex: 0.5;
+    //     overflow: hidden;
 
-        .imgContainer{
+    //     .imgContainer{
             
-            margin-top: 10px;
-            height: 900px;
-            width: 900px;
-            background-color: rgb(108, 108, 247);
-            border-radius: 50%;
-            display: flex;
-            align-items: flex-end;
-            justify-content: center;
-            float: right;
+    //         margin-top: 10px;
+    //         height: 900px;
+    //         width: 900px;
+    //         background-color: rgb(108, 108, 247);
+    //         border-radius: 50%;
+    //         display: flex;
+    //         align-items: flex-end;
+    //         justify-content: center;
+    //         float: right;
 
 
 
-            img{
-                // width: 300px;
-                height: 95%;
-                // float: right;
-            }
+    //         img{
+    //             // width: 300px;
+    //             height: 95%;
+    //             // float: right;
+    //         }
 
-        }
-    }
+    //     }
+    // }
     .right{
-        flex: 0.5;
+        // flex: 0.5;
+        margin-bottom:10%;
 
         .wrapper{
             width: 100%;
@@ -55,9 +56,10 @@
                 }
             }
             button{
-                width: 40%;
-                height: 8%;
-                margin-top: 10%;
+                
+                width: 280px;
+                margin-top: 20px;
+                height: 46px;
                 background-color:white;
                 color: $mainColor;
                 font-size: 18px;

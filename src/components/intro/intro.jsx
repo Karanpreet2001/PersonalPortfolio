@@ -37,6 +37,7 @@ const Intro = () => {
       <div className="wrapper">
           <h2>Hi there, I'm</h2>
           <h1>Karanpreet</h1>
+          <h1>I build things for the web.</h1>
           <h3><span><Typewriter 
           
           options={
@@ -54,9 +55,9 @@ const Intro = () => {
      
      
   </div>
-       <div className="left"><div className='imgContainer'><img src="https://www.seekpng.com/png/full/76-760594_man-transparent-resolution-smile-man-png.png" alt="" /></div></div>
+       {/* <div className="left"><div className='imgContainer'><img src="https://www.seekpng.com/png/full/76-760594_man-transparent-resolution-smile-man-png.png" alt="" /></div></div> */}
        
-    </div> 
+  </div> 
   
                  );
 }
