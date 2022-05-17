@@ -15,7 +15,7 @@ const Square = styled.div`
 
                 @keyframes square {
                     to{
-                        transform:translate(50vw, 90vh);
+                        transform:translate(80vw, 90vh);
                     }
                 }
                 `;
