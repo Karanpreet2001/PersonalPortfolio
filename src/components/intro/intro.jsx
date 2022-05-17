@@ -4,18 +4,11 @@ import  Typewriter  from 'typewriter-effect';
 
 
 
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
+
+import AnimatedShapes from '../AnimatedShapes';
 const Intro = () => {
 
-  const particlesInit = async (main) => {
-
-    await loadFull(main);
-  };
-
-  const particlesLoaded = (container) => {
-    console.log(container);
-  };
+  
 
   const toGitHub=()=>{
       const link = 'https://github.com/Karanpreet2001';
@@ -31,6 +24,7 @@ const Intro = () => {
 
      
        <div className="intro" id='intro'>
+         <AnimatedShapes/>
        <div className="right">
       
        
@@ -55,7 +49,7 @@ const Intro = () => {
      
      
   </div>
-       {/* <div className="left"><div className='imgContainer'><img src="https://www.seekpng.com/png/full/76-760594_man-transparent-resolution-smile-man-png.png" alt="" /></div></div> */}
+      
        
   </div> 
   

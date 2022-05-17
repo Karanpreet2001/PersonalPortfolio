@@ -21,6 +21,7 @@
     "react-tagcloud": "^2.2.0",
     "react-tsparticles": "^2.0.6",
     "sass": "^1.50.1",
+    "styled-components": "^5.3.5",
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.4"
   },
