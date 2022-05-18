@@ -30,8 +30,8 @@ const Intro = () => {
        
       <div className="wrapper">
           <h2>Hi there, I'm</h2>
-          <h1>Karanpreet</h1>
-          <h1>I build things for the web.</h1>
+          <h1>Karanpreet.</h1>
+          <h1 className='newH1'>I build things for the web.</h1>
           <h3><span><Typewriter 
           
           options={
