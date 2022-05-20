@@ -43,7 +43,7 @@ const Intro = () => {
           
           /> </span></h3>
 
-          <button onClick={()=>toGitHub()}>Check All my projects</button>
+          <button onClick={()=>toGitHub()}>Check all my projects</button>
          
       </div>
      

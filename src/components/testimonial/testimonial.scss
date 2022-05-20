@@ -1,3 +1,7 @@
+
+@import "../../global.scss";
+
+
 .testomonial{
     background-color: white;
     display: flex;
@@ -7,6 +11,10 @@
     h1{
         font-size: 40px;
         padding: 10px 10px;
+
+        @include mobile{
+            font-size: 25px;
+        }
     }
 
     .container{
@@ -15,6 +23,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
+
+        @include mobile{
+            flex-direction: column;
+            
+
+        }
         
 
         .card{
@@ -28,6 +42,15 @@
             padding: 20px;
             margin-left: 40px;
             transition: all 1s ease;
+
+            @include mobile{
+                height: 180px;
+                padding: 5px;
+                margin-left: 0px;
+                margin-bottom: 1px;
+                
+            }
+            
 
             &:hover{
                 transform: scale(1.1);
@@ -44,6 +67,13 @@
                     width: 80px;
                     border-radius: 50%;
                     object-fit: cover;
+
+                    @include mobile{
+                       
+                        height: 30px;
+                    width: 30px;
+                        
+                    }
                 }
               
             }
@@ -58,6 +88,17 @@
                 text-transform: uppercase;
                 font-size: 18px;
 
+                @include mobile{
+                       
+                    font-size: 12px;
+                    padding: 5px;
+                margin-top: 2px;
+                margin-bottom: 2px;
+
+
+                    
+                }
+
 
             }
             .bottom{
@@ -65,6 +106,12 @@
                 background-color: rgb(239, 240, 240);
                 border-radius: 10px;
                 padding: 10px;
+
+                @include mobile{
+                       
+                    font-size: 12px;
+                    
+                }
             }
         }
     }
