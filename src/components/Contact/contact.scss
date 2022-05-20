@@ -4,6 +4,10 @@
 
     display: flex;
 
+    @include mobile{
+        flex-direction: column;
+    }
+
     .left{
         flex: 1;
         overflow: hidden;
@@ -14,7 +18,11 @@
             margin: 10px;
            
             border: 2px solid rgb(68, 103, 182);
-            
+          
+            @include mobile{
+                width: 93.5%;
+            height: 90%;
+            }
             
         }
     }
@@ -25,8 +33,19 @@
         align-items: center;
         justify-content: center;
 
+        @include mobile{
+          
+          margin: 10px;
+          justify-content: flex-start;
+          margin-top: 0px;
+         }
+
         h2{
             font-size: 37px;
+            @include mobile{
+               font-size: 26px;
+               margin-top: 0%;
+            }
         }
         form{
             width: 70%;
@@ -36,6 +55,10 @@
             align-items: center;
             justify-content: space-evenly;
 
+            @include mobile{
+                width: 100%;
+            height: 70%;
+             }
             input{
                 width: 400px;
                 height: 45px;
@@ -43,6 +66,16 @@
                 border: none;
                 border-bottom: 1px solid black;
                 padding-left: 10px;
+
+                @include mobile{
+          
+                    width: 200px;
+                    height: 50px;
+                    padding-left: 10px;
+                    margin-top: 4px;
+                    margin-bottom: 0px;
+                    font-size: 12px;
+                   }
 
          
             }
@@ -53,6 +86,15 @@
                 margin-top: 10px;
                 padding-left: 10px;
                 padding-top: 10px;
+                @include mobile{
+          
+                    width: 200px;
+                    height: 80px;
+                    padding-left: 10px;
+                    margin-bottom: 2px;
+                    font-size: 12px;
+                    padding-top: 3px;
+                   }
 
             }
             button{
@@ -65,13 +107,30 @@
                 cursor: pointer;
                 border: none;
 
+                @include mobile{
+          
+                    width: 120px;
+                    height: 55px;
+                font-size: 14px;
+
+                    
+                    margin-top: 4px;
+                   }
+
                 &:hover{
                     background-color: rgb(182, 6, 12);
                 }
                 
             }
             h3{
-                color:rgb(71, 113, 7)
+                color:rgb(71, 113, 7);
+
+                @include mobile{
+                    padding-bottom: 8px;
+                    font-size: 15px;
+                    
+                   }
+
             }
         }
     }
