@@ -47,13 +47,18 @@
                 height: 180px;
                 padding: 5px;
                 margin-left: 0px;
-                margin-bottom: 1px;
+                margin-bottom: 2px;
                 
             }
             
 
             &:hover{
                 transform: scale(1.1);
+
+                @include mobile{
+                    transform: scale(1);
+                    
+                }
             }
 
             .top{
@@ -93,7 +98,7 @@
                     font-size: 12px;
                     padding: 5px;
                 margin-top: 2px;
-                margin-bottom: 2px;
+                margin-bottom: 2.5px;
 
 
                     
@@ -108,8 +113,9 @@
                 padding: 10px;
 
                 @include mobile{
-                       
+                    padding: 5px;  
                     font-size: 12px;
+                    padding-bottom: 3px;  
                     
                 }
             }

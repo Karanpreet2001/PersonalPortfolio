@@ -2,11 +2,12 @@ import Intro from "./components/intro/intro";
 import Portfolio from "./components/portfolio/porfolio";
 import Testimonial from "./components/testimonial/testimonial";
 import Topbar from "./components/topbar/topbar";
-import Works from "./components/works/works";
+import Skills from "./components/skill/skills";
 import Contact from "./components/Contact/contact";
 import "./app.scss";
 import { useState } from "react";
 import Menu from "./components/menu/menu";
+
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
     <div className="sections">
       <Intro/>
       <Portfolio/>
-      <Works/>
+      <Skills/>
       <Testimonial/>
       <Contact/>
     </div>

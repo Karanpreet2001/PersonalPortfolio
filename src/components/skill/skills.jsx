@@ -1,10 +1,10 @@
-import "./works.scss";
+import "./skills.scss";
 import { TagCloud } from 'react-tagcloud';
 import randomColor from 'randomcolor';
 
 import {BsPatchCheckFill} from 'react-icons/bs';
 
-const Works = () => {
+const Skills = () => {
     
     const skills = [
         {type: "HTML", level: 90},
@@ -165,4 +165,4 @@ const Works = () => {
      );
 }
  
-export default Works;
+export default Skills;
