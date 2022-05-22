@@ -17,6 +17,11 @@
         margin-bottom:10%;
         margin-top: 9%;
 
+        @include mobile{
+            margin-top: 20%;
+
+        }
+
         .wrapper{
             width: 100%;
             height: 100%;
