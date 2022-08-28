@@ -16,8 +16,8 @@ const Testimonial = () => {
             desc:"I know Karan is one of those rare developers who spend hours every single day after work or school trying to be better at creating software. He was highly productive while helping us develop an API for our college.He is also calm and kind guy.I enjoyed to work with him"
         },
         {
-            id:1,
-            name:"Chloee",
+            id:3,
+            name:"Chloe",
             icon:"https://cdn5.vectorstock.com/i/thumb-large/80/84/person-gray-photo-placeholder-woman-vector-22808084.jpg",
             desc:"During his time at Funpun Interview, Karan was very proactive and result-oriented. He was diligent and also picked up the capacity of his role in no time. His honesty and prompt Introspection bonded team unity. I was so lucky to work with him."
         }
@@ -35,7 +35,7 @@ const Testimonial = () => {
            
             <div key={p.id} className="card">
                 <div className="top">
-                    <img src={p.icon} alt="" srcset="" />
+                    <img src={p.icon} alt="" srcSet="" />
                 </div>
                 <div className="center"><b>{p.name}</b></div>
                 <div className="bottom">{p.desc}</div>

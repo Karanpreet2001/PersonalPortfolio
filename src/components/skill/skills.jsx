@@ -4,6 +4,7 @@ import randomColor from 'randomcolor';
 
 import {BsPatchCheckFill} from 'react-icons/bs';
 
+
 const Skills = () => {
     
     const skills = [
@@ -44,6 +45,8 @@ const Skills = () => {
         <img src="https://img.icons8.com/fluency/96/000000/mysql-logo.png"/>
         <img src="https://img.icons8.com/external-tal-revivo-filled-tal-revivo/96/000000/external-mongodb-a-cross-platform-document-oriented-database-program-logo-filled-tal-revivo.png"/>
         <img src="https://img.icons8.com/color/96/000000/android-studio--v3.png"/>
+        <img  style={{"width": 80}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Kotlin_Icon.svg/2048px-Kotlin_Icon.svg.png"/>
+
         </div>
 
         <div className="wrapper">
@@ -151,6 +154,15 @@ const Skills = () => {
               <div>
               <h4>Java for Android</h4>
               <small className="txt-light">Experienced</small>
+              </div>
+              
+           </div>
+
+           <div className="exp_details">
+              <BsPatchCheckFill/>
+              <div>
+              <h4>Kotlin</h4>
+              <small className="txt-light">Intermediate</small>
               </div>
               
            </div>

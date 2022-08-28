@@ -7,6 +7,7 @@ import {featuredPortfolio, webPortfolio, mobilePortfolio, htmlPortfolio} from ".
 const Portfolio = () => {
 
 
+    var i=0;
     const [selected, setSelected]= useState("featured");
     const [data, setData]= useState();
     const list=[
@@ -27,6 +28,9 @@ const Portfolio = () => {
 
         }
     ];
+
+
+    console.log(data);
     
 
     useEffect(()=>{
@@ -55,15 +59,18 @@ const Portfolio = () => {
            {list.map(item=>(<PortfolioList title={item.title}  
            active={selected===item.id} 
            setSelected={setSelected} 
+           
            id={item.id}/>))}
         </ul>
         <div className="container">
 
             {data?.map(d=>(
-            <div className="item">
+            <div className="item" key= { (new Date().getTime().toString()+ i++)}>
+                {console.log(new Date().getTime().toString()+ i++)}
                 <img src={d.img} alt=""/>
                 <h3>{d.title}</h3>
             </div>
+            
 
             ))}
 
