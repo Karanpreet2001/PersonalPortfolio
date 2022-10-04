@@ -60,12 +60,13 @@ const Portfolio = () => {
            active={selected===item.id} 
            setSelected={setSelected} 
            
-           id={item.id}/>))}
+           id={item.id}
+           link= {item.link}/>))}
         </ul>
         <div className="container">
 
             {data?.map(d=>(
-            <div className="item" key= { (new Date().getTime().toString()+ i++)}>
+            <div className="item" key= { (new Date().getTime().toString()+ i++)} onClick={()=> window.open(d.link, '_self')}>
                 {console.log(new Date().getTime().toString()+ i++)}
                 <img src={d.img} alt=""/>
                 <h3>{d.title}</h3>

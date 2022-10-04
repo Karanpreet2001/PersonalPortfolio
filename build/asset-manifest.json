@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a8528dda.css",
+    "main.js": "/static/js/main.3e6e5c43.js",
+    "static/media/CoffeeBar.png": "/static/media/CoffeeBar.546137a96f3068077e95.png",
+    "static/media/School.png": "/static/media/School.903dd3ce21e826377a40.png",
+    "static/media/FreeLancingWebsite.png": "/static/media/FreeLancingWebsite.b77b992e33065682a325.png",
+    "static/media/ecommerce.png": "/static/media/ecommerce.259f0f8b4afd09529ec1.png",
+    "static/media/BookStore.png": "/static/media/BookStore.25c6d4722b50bbc38623.png",
+    "static/media/Weather App.png": "/static/media/Weather App.32397f8171bccc4184d7.png",
+    "static/media/ServPro.png": "/static/media/ServPro.aa6eb659dfa823373bbe.png",
+    "static/media/mobile.png": "/static/media/mobile.7d02058bfb2350aa1f47.png",
+    "static/media/new.png": "/static/media/new.7d016f580ffc1937cd14.png",
+    "static/media/TodoLostReact.png": "/static/media/TodoLostReact.cba362cf9b4d0df74159.png",
+    "index.html": "/index.html",
+    "main.a8528dda.css.map": "/static/css/main.a8528dda.css.map",
+    "main.3e6e5c43.js.map": "/static/js/main.3e6e5c43.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8528dda.css",
+    "static/js/main.3e6e5c43.js"
+  ]
+}

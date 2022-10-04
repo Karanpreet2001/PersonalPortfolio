@@ -33,7 +33,9 @@ const Testimonial = () => {
             {data.map((p)=>(
 
            
-            <div key={p.id} className="card">
+ 
+    <div key={p.id} className="card">
+               
                 <div className="top">
                     <img src={p.icon} alt="" srcSet="" />
                 </div>
